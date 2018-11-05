@@ -1,4 +1,5 @@
 #!/usr/local/bin/python
+# To use: python Combine -d ./images -o ./videos/new_video.mp4 -e jpg -t 25
  
 import cv2
 import argparse
