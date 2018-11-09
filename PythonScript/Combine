@@ -1,5 +1,6 @@
 #!/usr/local/bin/python
 # To use: python Combine -d ./images -o ./videos/new_video.mp4 -e jpg -t 25
+# Use this to sort: for i in `ls *.pdf`; do convert -density 300 "$i" "$i".jpg; done
  
 import cv2
 import argparse
